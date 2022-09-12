@@ -1,0 +1,16 @@
+{
+  "name": "baixa-lista",
+  "version": "1.0.0",
+  "description": "Pacote que vou usar para baixar as listas de atividade de um amigo neu ",
+  "main": "PegaLista.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.2"
+  },
+  "keywords": []
+}
