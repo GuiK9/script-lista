@@ -20,7 +20,7 @@ async function pegaLista() {
             data: `senha=estudos&prova=${values[i]}`
         }).then((res) => {
             data = res.data
-            fs.writeFile(`../../estudos/lista${i}.html`, data, (err) => {
+            fs.writeFile(`../../estudos/${Date.now()}--lista${i}.html`, data, (err) => {
             if(err) {
                 console.log(err)
             }
